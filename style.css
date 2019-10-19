@@ -15,6 +15,15 @@ background-size: cover;
     padding: 8px;
 }
 
+.navbar a:link{
+    font-weight: bold;
+    font: black;
+}
+
+p{
+    padding:3px;
+}
+
 .container{
     padding: 5%;
     margin-bottom:50px;
@@ -24,13 +33,17 @@ background-size: cover;
     height: 100px;
 }
 
+/* .navbar-brand{
+    display:inline; */
+/* } */
 
 .footer{
     position: fixed;
+    bottom:0px;
     height:70px;
+    width:100%;
     background-color:grey;
     border-top: plum 1px solid;
-    width:100%;
 }
     
 .navbar-brand {
