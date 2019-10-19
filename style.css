@@ -7,26 +7,88 @@ body{
 background-size: cover;
 }
 .card{
+    
     border: plum 1px solid;
     padding: 10px;
+    position:relative;
 } 
+
+.card img {
+    height:150px;
+    width: 150px;
+    padding:4px;
+    position:relative;
+    z-index:1
+}
 
 .row{ 
     padding: 8px;
 }
 
-.navbar a:link{
+a{
     font-weight: bold;
-    font: black;
+    color: black;
 }
 
+
+/* .nav-item{
+    display:flex;
+    justify-content: end;
+} */
 p{
     padding:3px;
 }
+.london{
+    position: absolute;
+    top: 210px;
+    left: 27px;
+    z-index:1;
+    background-color:pink;
+    width:142px;
+}
 
+.rico{
+    position: absolute;
+    top: 210px;
+    left: 177px;
+    z-index:1;
+    background-color:pink;
+    width:142px;
+
+}
+.schoolie {
+    position: absolute;
+    bottom: 200px;
+    left: 158px;
+    z-index:1;
+    background-color:pink;
+    width:142px;
+}
+
+.phonebooth{
+    position: absolute;
+    bottom: 200px;
+    left: 7px;
+    z-index:1;
+    background-color:pink;
+    width:142px;
+}
+.barcelona{
+    position: absolute;
+    bottom: 30px;
+    left:14px;
+    z-index:1;
+    background-color:pink;
+    width:142px;
+}
 .container{
     padding: 5%;
     margin-bottom:50px;
+    
+    /* width: 100%;
+    white-space: nowrap; */
+    
+    
 }
 
 .footer-margin{
@@ -35,25 +97,33 @@ p{
 
 /* .navbar-brand{
     display:inline; */
-/* } */
-
-.footer{
-    position: fixed;
-    bottom:0px;
-    height:70px;
-    width:100%;
-    background-color:grey;
-    border-top: plum 1px solid;
+    /* } */
+    
+    .footer{
+        position: fixed;
+        bottom:0px;
+        height:70px;
+        width:100%;
+        background-color:grey;
+        border-top: plum 1px solid;
+    }
+    
+    .navbar-brand {
+        display: none !important;
+    }
+    
+    /* .image2{ */
+        /* position:relative;
+        width:100; */
+    /* } */
+    /* h4{ */
+    /* position:absolute;
+    top:100;
+    width:100;
+    z-index:1; */
 }
-    
-.navbar-brand {
-    display: none !important;
-  }
- 
-    
-    
 
-
+.
 @media screen and (max-width: 768px) {
     .row {
       display:block;
@@ -91,4 +161,4 @@ p{
   .card1 {
     display: none !important;
   }
-      
+    
